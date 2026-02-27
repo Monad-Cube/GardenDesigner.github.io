@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="assets/static/image/your_banner_image.png" />
+  <!-- <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/> -->
+
+
+  <meta name="twitter:title" content=Garden Designer">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="assets/static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="Infinite Motion">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>GardenDesigner: Jiangnan Garden Synthesis via Chain of Aesthetic Principles</title>
+  <link rel="icon" type="image/x-icon" href="assets/static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/static/css/bulma.min.css">
+  <link rel="stylesheet" href="assets/static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="assets/static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="assets/static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="assets/static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="assets/static/js/fontawesome.all.min.js"></script>
+  <script src="https://kit.fontawesome.com/d383128d10.js" crossorigin="anonymous"></script>
+  <script src="assets/static/js/bulma-carousel.min.js"></script>
+  <script src="assets/static/js/bulma-slider.min.js"></script>
+  <script src="assets/static/js/index.js"></script>
+</head>
+
+<body>
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-widescreen">
+        <div class="columns is-centered">
+          <div class="container has-text-centered">
+            <h1 class="title is-2 publication-title">
+              GardenDesigner: Encoding Aesthetic Principles into Jiangnan Garden Construction via a Chain of Agents
+            </h1>
+            <div class="is-size-5 publication-authors">
+              <div class="author-block">
+                <span class="author-name">Anonymous CVPR 2026 submission</span>
+            </div>
+    
+            
+    
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">Paper ID 3816
+            </div>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <!-- Arxiv PDF link -->
+                <span class="link-block">
+                  <a href="" target="_blank"
+                  class="external-link button is-normal is-rounded is-light">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="" target="_blank"
+                  class="external-link button is-normal is-rounded is-light">
+                    <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>arXiv</span>
+                  </a>
+                </span>
+
+
+                <!-- Code link -->
+                <span class="link-block">
+                  <a href="" target="_blank"
+                  class="external-link button is-normal is-rounded is-light">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- Data link -->
+                <span class="link-block">
+                  <a href="" class="external-link button is-normal is-rounded is-light">
+                    <span class="icon">
+                      <i class="fa-solid fa-download"></i>
+                    </span>
+                    <span>Data</span>
+                  </a>
+                </span>
+
+              
+
+                <!-- <div class="image-container has-text-centered">
+                  <img src="assets/pic/teaser.png" alt="Your Image Description">
+                </div>
+                <h2 class="subtitle has-text-justified">
+                  The workflow of GardenDesigner and its applications. Traditional manual modeling of Jiangnan gardens requires document searching, data modeling, and expert design, making it time-consuming and expertise-dependent. GardenDesigner automates Jiangnan garden generation via analyzing the user input text and acquiring the appropriate datasets, and then optimizes the object layout for the final visualization. For applications, the user can just input the text description and get the interactive scene, which can be used for creating VR/AR experiences, film and game development, and garden design and construction.
+                </h2> -->
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Teaser section -->
+<section class="hero-teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="assets/pic/teaser.png" alt="GardenDesigner Teaser">
+      <h2 class="subtitle has-text-justified">
+        The workflow of GardenDesigner and its applications. Traditional manual modeling of Jiangnan gardens requires document searching, data modeling, and expert design, making it time-consuming and expertise-dependent. GardenDesigner automates Jiangnan garden generation via analyzing the user input text and acquiring the appropriate datasets, and then optimizes the object layout for the final visualization. For applications, the user can just input the text description and get the interactive scene, which can be used for creating VR/AR experiences, film and game development, and garden design and construction.
+      </h2>
+    </div>
+  </div>
+</section>
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="item has-text-centered">
+      <div class="has-text-centered">
+        <!-- <h2 class="title is-3">Video</h2> -->
+        <video width="640" height="360" controls>
+        <source src="demo.mp4" type="video/mp4">
+     </video>
+    </div>
+  </div>
+  </div>
+</section>
+
+<!-- Paper abstract -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              Jiangnan gardens, a prominent style of Chinese classical gardens, hold great potential as digital assets for film and game production and digital tourism.
+However, manual modeling of Jiangnan gardens heavily relies on expert experience for layout design and asset creation, making the process time-consuming.
+To address this gap, we propose GardenDesigner, a novel framework that encodes aesthetic principles for Jiangnan garden construction and integrates a chain of agents based on procedural modeling.
+The water-centric terrain and explorative pathway rules are applied by terrain distribution and road generation agents. Selection and spatial layout of garden assets follow the aesthetic and cultural constraints. Consequently, we propose asset selection and layout optimization agents to select and arrange objects for each area in the garden.
+Additionally, we introduce GardenVerse for Jiangnan garden construction, including expert-annotated garden knowledge to enhance the asset arrangement process.
+To enable interaction and editing, we develop an interactive interface and tools in Unity, in which non-expert users can construct Jiangnan gardens via text input within one minute.
+Experiments and human evaluations demonstrate that GardenDesigner can generate diverse and aesthetically pleasing Jiangnan gardens.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<!-- Paper abstract -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Method</h2>
+          <div class="content has-text-justified">
+            <img src="assets/pic/pipeline.png"/>
+            <p>
+              Overview of the GardenDesigner pipeline. GardenDesigner transforms the user input into a Jiangnan garden through Hierarchical Garden Composition and Knowledge-Embedded Asset Arrangement. 
+  First, Hierarchical Garden Composition transfers the user input into parameters for terrain and road generation with aesthetic principles. 
+  Subsequently, Knowledge-Embedded Asset Arrangement resolves garden asset selection and relational constraint-based layout optimization for each area: (1) Asset Selection chooses the objects based on the garden knowledge and area information; (2) Layout Optimization assigns the object according to garden knowledge, and then optimization loss is used to get the feasible solution for the garden layout.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+
+
+<!-- Paper abstract -->
+<!-- <section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">GardenVerse</h2>
+          <div class="content has-text-justified">
+            <img src="assets/pic/gardenverse.png"/>
+            <p>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+<!-- End paper abstract -->
+
+<!-- Teaser demo-->
+<!-- <section class="hero is-small">
+  <div class="hero-body">
+    <div id="teaser-demo" class="container is-max-desktop">
+      <div class="has-text-centered">
+        <h2 class="title is-3">HumanML3D-Extend dataset</h2>
+        <h2 class="subtitle"><sup>*</sup>Drag mouse to rotate & scroll wheel to zoom in/out</h2> 
+      </div>
+      <div class="carousel demo-carousel">
+        <div class="item has-text-centered">
+          <video poster="" id="video7" autoplay controls muted loop height="75%" width="75%">\
+            <source src="./assets/pic/dataset/1.mp4"
+            type="video/mp4">
+          </video>
+          <h2 class="subtitle has-text-centered">
+            A Motion clip from TRUMANS dataset in a bedroom.
+          </h2>
+        </div>
+
+        <div class="item has-text-centered">
+          <video poster="" id="video7" autoplay controls muted loop height="75%" width="75%">\
+            <source src="./assets/pic/dataset/2.mp4"
+            type="video/mp4">
+          </video>
+          <h2 class="subtitle has-text-centered">
+            A Motion clip from TRUMANS dataset in a living room.
+          </h2>
+        </div>
+
+        <div class="item has-text-centered">
+          <video poster="" id="video7" autoplay controls muted loop height="75%" width="75%">\
+            <source src="./assets/pic/dataset/3.mp4"
+            type="video/mp4">
+          </video>
+          <h2 class="subtitle has-text-centered">
+            A Motion clip from TRUMANS dataset in a kitchen.
+          </h2>
+        </div>
+
+        <div class="item has-text-centered">
+          <video poster="" id="video7" autoplay controls muted loop height="75%" width="75%">\
+            <source src="./assets/pic/dataset/4.mp4"
+            type="video/mp4">
+          </video>
+          <h2 class="subtitle has-text-centered">
+            A Motion clip from TRUMANS dataset in a kitchen.
+          </h2>
+        </div>
+
+        <div class="item has-text-centered">
+          <video poster="" id="video7" autoplay controls muted loop height="75%" width="75%">\
+            <source src="./assets/pic/dataset/5.mp4"
+            type="video/mp4">
+          </video>
+          <h2 class="subtitle has-text-centered">
+            A Motion clip from TRUMANS dataset in a kitchen.
+          </h2>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section> -->
+<!-- End teaser demo -->
+
+
+<!-- Video carousel -->
+<!-- <section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="has-text-centered">
+        <h2 class="title is-3">Demos</h2>
+      </div>
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-video1">
+          <div class="item has-text-centered">
+            <video poster="" id="video8" autoplay controls muted loop height="75%" width="75%">
+              <source src="./assets/pic/demo1.mp4"
+              type="video/mp4">
+            </video>
+            <h1 class="title is-4">Replaceable objects</h1>
+          </div>
+        </div>
+        <div class="item item-video2">
+          <div class="item has-text-centered">
+            <video poster="" id="video9" autoplay controls muted loop height="75%" width="75%">
+              <source src="./assets/pic/demo2.mp4"
+              type="video/mp4">
+            </video>
+            <h1 class="title is-4">Replaceable background</h1>
+          </div>
+        </div>
+        <div class="item item-video3">
+          <div class="item has-text-centered">
+            <video poster="" id="video10" autoplay controls muted loop height="75%" width="75%">
+              <source src="./assets/pic/demo3.mp4"
+              type="video/mp4">
+            </video>
+            <h1 class="title is-4">Extensive annotations</h1>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section> -->
+<!-- End video carousel -->
+
+<!-- Teaser demo-->
+<!-- <section class="hero is-small">
+  <div class="hero-body">
+    <div id="teaser-demo" class="container is-max-desktop">
+      <div class="has-text-centered">
+        <h2 class="title is-3">Edit</h2>
+        <h2 class="subtitle"><sup>*</sup>Drag mouse to rotate & scroll wheel to zoom in/out</h2> 
+      </div>
+      <div class="carousel demo-carousel">
+        <div class="item has-text-centered">
+          <video poster="" id="video7" autoplay controls muted loop height="75%" width="75%">\
+            <source src="./assets/pic/app/add.mp4"
+            type="video/mp4">
+          </video>
+          <h2 class="subtitle has-text-centered">
+            edit-add
+          </h2>
+        </div>
+
+        <div class="item has-text-centered">
+          <video poster="" id="video7" autoplay controls muted loop height="75%" width="75%">\
+            <source src="./assets/pic/app/replace.mp4"
+            type="video/mp4">
+          </video>
+          <h2 class="subtitle has-text-centered">
+            edit-replace
+          </h2>
+        </div>
+
+        <div class="item has-text-centered">
+          <video poster="" id="video7" autoplay controls muted loop height="75%" width="75%">\
+            <source src="./assets/pic/demo4.mp4"
+            type="video/mp4">
+          </video>
+          <h2 class="subtitle has-text-centered">
+            long-duration
+          </h2>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section> -->
+<!-- End teaser demo -->
+
+<!-- GIF demo-->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div id="teaser-demo" class="container is-max-desktop">
+      <div class="has-text-centered">
+        <h2 class="title is-3">GardenDesigner Results</h2>
+        <!-- <h2 class="subtitle"><sup>*</sup>Drag mouse to rotate & scroll wheel to zoom in/out</h2> -->
+      </div>
+      <div class="columns is-vcentered">
+        <!-- Left Arrow -->
+        <div class="column is-1">
+          <div class="has-text-centered">
+            <button class="button is-large is-white" onclick="previousSlide()">
+              <span class="icon">
+                <i class="fas fa-chevron-left"></i>
+              </span>
+            </button>
+          </div>
+        </div>
+        
+        <!-- Main Content Area -->
+        <div class="column is-10">
+          <div id="garden-slides" class="columns">
+            <div class="column slide active">
+              <div class="has-text-centered">
+                <img src="./assets/pic/dataset/GD_Arch.gif" 
+                     alt="An architecture-focused Jiangnan garden where ornate pavilions, attics, and stone bridges frame every view in a rhythm of structure and space."
+                     style="height: auto; width: 100%; max-width: 100%;">
+                <h2 class="subtitle has-text-centered">
+                  An architecture-focused Jiangnan garden where ornate pavilions, attics, and stone bridges frame every view in a rhythm of structure and space.
+                </h2>
+              </div>
+            </div>
+            
+            <div class="column slide">
+              <div class="has-text-centered">
+                <img src="./assets/pic/dataset/GD_Floral.gif" 
+                     alt="A Jiangnan garden  in autumn follows the traditional Jiangnan design, blending elements in harmonious proportions."
+                     style="height: auto; width: 100%; max-width: 100%;">
+                <h2 class="subtitle has-text-centered">
+                  A Jiangnan garden  in autumn follows the traditional Jiangnan design, blending elements in harmonious proportions.
+                </h2>
+              </div>
+            </div>
+            
+            <div class="column slide">
+              <div class="has-text-centered">
+                <img src="./assets/pic/dataset/GD_Normal.gif" 
+                     alt="Generate a Jiangnan garden with a central pond surrounding pavilions."
+                     style="height: auto; width: 100%; max-width: 100%;">
+                <h2 class="subtitle has-text-centered">
+                  Generate a Jiangnan garden with a central pond surrounding pavilions.
+                </h2>
+              </div>
+            </div>
+
+            <!-- <div class="column slide">
+              <div class="has-text-centered">
+                <img src="./assets/pic/dataset/GD_Hydro.gif" 
+                     alt="Generate a Jiangnan garden with a central pond surrounding pavilions."
+                     style="height: auto; width: 100%; max-width: 100%;">
+                <h2 class="subtitle has-text-centered">
+                  The garden is structured around a central lake, with bridges and waterside pavilions enhancing the aquatic atmosphere.
+                </h2>
+              </div>
+            </div>
+
+            <div class="column slide">
+              <div class="has-text-centered">
+                <img src="./assets/pic/dataset/GD_Irregular.gif" 
+                     alt="Generate a Jiangnan garden with a central pond surrounding pavilions."
+                     style="height: auto; width: 100%; max-width: 100%;">
+                <h2 class="subtitle has-text-centered">
+                  A maze-like Jiangnan garden of winding paths, layered views, and hidden corners.
+                </h2>
+              </div>
+            </div> -->
+
+          </div>
+        </div>
+        
+        <!-- Right Arrow -->
+        <div class="column is-1">
+          <div class="has-text-centered">
+            <button class="button is-large is-white" onclick="nextSlide()">
+              <span class="icon">
+                <i class="fas fa-chevron-right"></i>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Page Indicators -->
+      <div class="has-text-centered" style="margin-top: 1rem;">
+        <span class="slide-indicator active" onclick="currentSlide(1)"></span>
+        <span class="slide-indicator" onclick="currentSlide(2)"></span>
+        <span class="slide-indicator" onclick="currentSlide(3)"></span>
+        <!-- <span class="slide-indicator" onclick="currentSlide(4)"></span>
+        <span class="slide-indicator" onclick="currentSlide(5)"></span> -->
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Image carousel -->
+<!-- <section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        &lt;!&ndash; Your image here &ndash;&gt;
+        <img src="assets/static/images/carousel1.jpg" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+         First image description.
+        </h2>
+     </div>
+      <div class="item">
+        &lt;!&ndash; Your image here &ndash;&gt;
+        <img src="assets/static/images/carousel2.jpg" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+         Second image description.
+        </h2>
+      </div>
+     <div class="item">
+       &lt;!&ndash; Your image here &ndash;&gt;
+        <img src="assets/static/images/carousel3.jpg" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+        Third image description.
+       </h2>
+    </div>
+     <div class="item">
+     &lt;!&ndash; Your image here &ndash;&gt;
+      <img src="assets/static/images/carousel4.jpg" alt="MY ALT TEXT"/>
+     <h2 class="subtitle has-text-centered">
+       Fourth image description.
+      </h2>
+    </div>
+  </div>
+</div>
+</div
+</section> -->
+<!-- End image carousel -->
+
+
+<!-- Youtube video -->
+<!--<section class="hero is-small is-light">-->
+<!--  <div class="hero-body">-->
+<!--    <div class="container">-->
+<!--      &lt;!&ndash; Paper video. &ndash;&gt;-->
+<!--      <h2 class="title is-3">Video Presentation</h2>-->
+<!--      <div class="columns is-centered has-text-centered">-->
+<!--        <div class="column is-four-fifths">-->
+<!--          -->
+<!--          <div class="publication-video">-->
+<!--            &lt;!&ndash; Youtube embed code here &ndash;&gt;-->
+<!--            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</section>-->
+<!-- End youtube video -->
+
+
+<!-- Paper poster -->
+<!--<section class="hero is-small is-light">-->
+<!--  <div class="hero-body">-->
+<!--    <div class="container">-->
+<!--      <h2 class="title">Poster</h2>-->
+
+<!--      <iframe  src="assets/static/pdfs/sample.pdf" width="100%" height="550">-->
+<!--          </iframe>-->
+<!--        -->
+<!--    </div>-->
+<!--  </div>-->
+<!--</section>-->
+<!--End paper poster -->
+
+
+<!--BibTex citation -->
+<!-- <section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <div class="has-text-centered">
+      <h2 class="title is-3">BibTeX</h2>
+    </div>
+    <pre><code>
+      @inproceedings{Li2024InfiniteME,
+        title={Infinite Motion: Extended Motion Generation from Text-Described Chain of Motion},
+        author={Anonymous ICCV submission},
+        year={2024},
+        url={https://api.semanticscholar.org/CorpusID:271097653}
+      }</code></pre>
+  </div>
+</section> -->
+<!--End BibTex citation -->
+
+<!-- Paper abstract -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Dataset</h2>
+          <div class="content has-text-justified">
+            <img src="assets/pic/gardenverse.png"/>
+            <p>
+              GardenVerse construction from Internet repositories and manual modeling. We invite experts to modify the architectures and construct object combinations. Finally, garden experts annotate the basic information and garden knowledge for assets.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link" href="">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+  </div>
+</footer>
+
+<script type="text/javascript" src="./assets/static/slick/slick.min.js"></script>
+
+</body>
+</html>
